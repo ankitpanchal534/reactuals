@@ -1,0 +1,25 @@
+{
+  "name": "reactuals",
+  "version": "1.0.0",
+  "description": "A useful pkg for react hooks and libs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react",
+    "tools",
+    "js",
+    "functions",
+    "helpful",
+    "react",
+    "functions"
+  ],
+  "author": "Ankit Panchal",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.0"
+  }
+}
