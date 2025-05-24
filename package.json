@@ -1,10 +1,12 @@
 {
   "name": "reactuals",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "A useful pkg for react hooks and libs",
-  "main": "index.js",
+   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [
     "react",
@@ -21,5 +23,9 @@
   "license": "ISC",
   "dependencies": {
     "react": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.5",
+    "typescript": "^4.9.5"
   }
 }

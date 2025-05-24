@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "strict": true
+  },
+  "include": ["*.ts"]
+}
