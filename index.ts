@@ -29,6 +29,7 @@ export { useThrottle } from "./src/hooks/useThrottle";
 export { useTimeoutToggle } from "./src/hooks/useTimeoutToggle";
 export { useUpdateEffect } from "./src/hooks/useUpdateEffect";
 export { useWhyDidYouUpdate } from "./src/hooks/useWhyDidYouUpdate";
+export { useClickAndHold } from "./src/hooks/useClickAndHold";
 
 // utils
 export { printMsg } from "./src/utils/printMsg";
