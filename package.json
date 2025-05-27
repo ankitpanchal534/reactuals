@@ -17,17 +17,32 @@
     "helpful",
     "utilities",
     "react-utils",
-    "typescript"
+    "typescript",
+    "custom-hooks",
+    "react-hooks",
+    "frontend",
+    "react-library",
+    "react-component",
+    "react-development",
+    "react-hooks",
+    "react-utilities",
+    "react-hooks-library",
+    "react-hooks-utils",
+    "react-hooks-utilities",
+    "react-hooks-toolkit",
+    "react-hooks-collection",
+    "react-hooks-toolkit",
+    "react-hooks-helpers"
   ],
   "author": "Ankit Panchal",
   "license": "ISC",
   "homepage": "https://reactuals.vercel.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ankit-panchal534/reactuals"
+    "url": "https://github.com/reactuals/reactuals"
   },
   "bugs": {
-    "url": "https://github.com/ankit-panchal534/reactuals/issues"
+    "url": "https://github.com/reactuals/reactuals/issues"
   },
   "dependencies": {
     "react": "^19.1.0"

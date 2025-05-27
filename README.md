@@ -75,7 +75,7 @@ The following table lists all hooks provided by `reactuals`, along with their de
 - **Type-Safe**: Written in TypeScript for robust type checking.
 - **Performance-Optimized**: Hooks are designed to minimize re-renders and resource usage.
 - **Real-World Focused**: Each hook addresses practical challenges, from accessibility to performance.
-- **Comprehensive Docs**: Detailed guidance available at [reactuals.dev/docs](https://reactuals.dev/docs).
+- **Comprehensive Docs**: Detailed guidance available at [reactuals.vercel.app/docs](https://reactuals.vercel.app).
 
 ## Contributing
 
@@ -95,7 +95,7 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ## Support
 
-For issues, or feature requests, please open an issue, or feature request on the [GitHub repository](https://github.com/your-username/reactuals). We’re here to help!
+For issues, or feature requests, please open an issue, or feature request on the [GitHub repository](https://github.com/reactuals/reactuals). We’re here to help!
 
 ---
 
