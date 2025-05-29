@@ -31,6 +31,11 @@ export { useUpdateEffect } from "./src/hooks/useUpdateEffect";
 export { useWhyDidYouUpdate } from "./src/hooks/useWhyDidYouUpdate";
 export { useClickAndHold } from "./src/hooks/useClickAndHold";
 export { useGeoLocation } from "./src/hooks/useGeoLocation";
+export { useSwipe } from "./src/hooks/useSwipe";
+export { useTextSelection } from "./src/hooks/useTextSelection";
+export { useNetworkSpeed } from "./src/hooks/useNetworkSpeed";
+export { useIdleTimeout } from "./src/hooks/useIdleTimeout";
+export { useBatteryStatus } from "./src/hooks/useBatteryStatus";
 
 // utils
 export { printMsg } from "./src/utils/printMsg";
