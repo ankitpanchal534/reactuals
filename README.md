@@ -71,11 +71,11 @@ The following table lists all hooks provided by `reactuals`, along with their de
 
 ## Why Use Reactuals?
 
-- **Lightweight**: Minimal bundle size with no dependencies.
+- **Lightweight**: Minimal bundle size with no dependencies, > 5kb .
 - **Type-Safe**: Written in TypeScript for robust type checking.
 - **Performance-Optimized**: Hooks are designed to minimize re-renders and resource usage.
 - **Real-World Focused**: Each hook addresses practical challenges, from accessibility to performance.
-- **Comprehensive Docs**: Detailed guidance available at [reactuals.vercel.app/docs](https://reactuals.vercel.app).
+- **Comprehensive Docs**: Detailed guidance available at [reactuals.vercel.app](https://reactuals.vercel.app).
 
 ## Contributing
 
