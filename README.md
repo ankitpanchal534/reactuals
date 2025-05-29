@@ -4,6 +4,11 @@
 
 **Reactuals** is a lightweight, powerful collection of 31 custom React hooks designed to streamline frontend development, optimize performance, and enhance user experience. Each hook solves specific real-world challenges, from handling user interactions to managing state persistence, making your React applications more efficient, accessible, and intuitive. Built with TypeScript for type safety, these hooks are easy to integrate, highly reusable, and performance-focused.
 
+[Check Latest Bundle Size](https://bundlephobia.com/package/reactuals)
+
+- Minified 15.8 kB
+- Minified + Gzipped 4.9 kB
+
 ## Installation
 
 Install the package via npm or yarn:
