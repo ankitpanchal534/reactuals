@@ -36,6 +36,24 @@ export { useTextSelection } from "./src/hooks/useTextSelection";
 export { useNetworkSpeed } from "./src/hooks/useNetworkSpeed";
 export { useIdleTimeout } from "./src/hooks/useIdleTimeout";
 export { useBatteryStatus } from "./src/hooks/useBatteryStatus";
+export { useAutofillMonitor } from "./src/hooks/useAutofillMonitor";
+export { useBreakpoint } from "./src/hooks/useBreakpoint";
+export { useClipboardRead } from "./src/hooks/useClipboardRead";
+export { useColorScheme } from "./src/hooks/useColorScheme";
+export { useWebBluetooth } from "./src/hooks/useWebBluetooth";
+export { useWebShare } from "./src/hooks/useWebShare";
+export { useDeviceType } from "./src/hooks/useDeviceType";
+export { usePictureInPicture } from "./src/hooks/usePictureInPicture";
+export { usePortal } from "./src/hooks/usePortal";
+export { useElementFocus } from "./src/hooks/useElementFocus";
+export { useEyeDropper } from "./src/hooks/useEyeDropper";
+export { useFullscreen } from "./src/hooks/useFullscreen";
+export { useInputDevice } from "./src/hooks/useInputDevice";
+export { useMousePosition } from "./src/hooks/useMousePosition";
+export { useScrollLock } from "./src/hooks/useScrollLock";
+export { useWebSocket } from "./src/hooks/useWebSocket";
+export { useWebVibration } from "./src/hooks/useWebVibration";
+export { useWindowFocus } from "./src/hooks/useWindowFocus";
 
 // utils
 export { printMsg } from "./src/utils/printMsg";
