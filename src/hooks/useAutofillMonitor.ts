@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export function useAutofillMonitor<
-  T extends HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
+  T extends HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement | null
 >(ref: React.RefObject<T>): { name: string; value: string } | null {
   const [autofillData, setAutofillData] = useState<{
     name: string;
