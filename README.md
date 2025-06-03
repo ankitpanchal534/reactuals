@@ -62,17 +62,12 @@ The following table lists all hooks provided by `reactuals`, along with their de
 | **useUpdateEffect**      | Runs an effect only on updates (not on initial mount), simplifying logic for side effects triggered by state or prop changes.                                                                                                                       |
 | **useWhyDidYouUpdate**   | Logs changes to props or state that cause re-renders, helping debug performance issues by identifying unnecessary updates.                                                                                                                          |
 | **useClickAndHold**      | Detects when a user clicks and holds on an element, enabling long-press interactions like context menus or drag initiators.                                                                                                                         |
-| **useGeoLocation**       | Tracks the user’s geolocation (latitude and longitude) using the browser’s Geolocation API, with options for high accuracy and error handling. Useful for location-based features like showing nearby stores, weather updates, or map integrations. |
-
-| **useIdleTimeout** | Detects user inactivity (no mouse, keyboard, or touch events) after a specified timeout, resetting on user activity. Useful for implementing auto-logout, session timeouts, or pausing resource-intensive tasks when the user is idle. |
-
-| **useSwipe** | Detects swipe gestures (left, right, up, down) on a DOM element by tracking touch events, with customizable thresholds. Ideal for touch-friendly navigation, such as carousels, mobile menus, or gesture-based interactions. |
-
-| **useNetworkSpeed** | Monitors the user’s network connection speed (effective type, e.g., "4g", "3g", "slow-2g") and downlink speed (Mbps) using the Network Information API, if available. Useful for adaptive content loading, such as reducing image quality or disabling video autoplay on slow connections to enhance performance and user experience. |
-
-| **useBatteryStatus** | Tracks the device’s battery level and charging status using the Battery Status API, if supported. Ideal for optimizing power-intensive tasks (e.g., animations, polling) when battery is low or notifying users of charging state in mobile or web apps. |
-
-| **useTextSelection** | Tracks the currently selected text in the document or a specific DOM element, returning the selected text and its range. Useful for implementing features like text highlighting, copy-to-clipboard enhancements, or context-aware text editing tools in content-heavy applications. |
+| **useGeoLocation**       | Tracks the user’s geolocation (latitude and longitude) using the browser’s Geolocation API, with options for high accuracy and error handling. Useful for location-based features like showing nearby stores, weather updates, or map integrations.         |
+| **useIdleTimeout**       | Detects user inactivity (no mouse, keyboard, or touch events) after a specified timeout, resetting on user activity. Useful for implementing auto-logout, session timeouts, or pausing resource-intensive tasks when the user is idle.                    |
+| **useSwipe**             | Detects swipe gestures (left, right, up, down) on a DOM element by tracking touch events, with customizable thresholds. Ideal for touch-friendly navigation, such as carousels, mobile menus, or gesture-based interactions.                              |
+| **useNetworkSpeed**      | Monitors the user’s network connection speed (effective type, e.g., "4g", "3g", "slow-2g") and downlink speed (Mbps) using the Network Information API, if available. Useful for adaptive content loading, such as reducing image quality or disabling video autoplay on slow connections to enhance performance and user experience. |
+| **useBatteryStatus**     | Tracks the device’s battery level and charging status using the Battery Status API, if supported. Ideal for optimizing power-intensive tasks (e.g., animations, polling) when battery is low or notifying users of charging state in mobile or web apps.  |
+| **useTextSelection**     | Tracks the currently selected text in the document or a specific DOM element, returning the selected text and its range. Useful for implementing features like text highlighting, copy-to-clipboard enhancements, or context-aware text editing tools in content-heavy applications. |
 
 ## Why Use Reactuals?
 
