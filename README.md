@@ -2,12 +2,12 @@
 
 ![npm](https://img.shields.io/npm/v/reactuals) ![license](https://img.shields.io/npm/l/reactuals) ![downloads](https://img.shields.io/npm/dm/reactuals)
 
-**Reactuals** is a lightweight, powerful collection of 31 custom React hooks designed to streamline frontend development, optimize performance, and enhance user experience. Each hook solves specific real-world challenges, from handling user interactions to managing state persistence, making your React applications more efficient, accessible, and intuitive. Built with TypeScript for type safety, these hooks are easy to integrate, highly reusable, and performance-focused.
+**Reactuals** is a lightweight, powerful collection of 55+ custom React hooks designed to streamline frontend development, optimize performance, and enhance user experience. Each hook solves specific real-world challenges, from handling user interactions to managing state persistence, making your React applications more efficient, accessible, and intuitive. Built with TypeScript for type safety, these hooks are easy to integrate, highly reusable, and performance-focused.
 
 [Check Latest Bundle Size](https://bundlephobia.com/package/reactuals)
 
-- Minified 15.8 kB
-- Minified + Gzipped 4.9 kB
+- Minified 18.4 kB
+- Minified + Gzipped 5.6 kB
 
 ## Installation
 
@@ -28,6 +28,7 @@ For detailed usage, parameters, and examples of each hook, visit our [official d
 ## Available Hooks
 
 The following table lists all hooks provided by `reactuals`, along with their descriptions:
+
 
 | Hook Name                | Description                                                                                                                                                                                                                                         |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -68,6 +69,7 @@ The following table lists all hooks provided by `reactuals`, along with their de
 | **useNetworkSpeed**      | Monitors the user’s network connection speed (effective type, e.g., "4g", "3g", "slow-2g") and downlink speed (Mbps) using the Network Information API, if available. Useful for adaptive content loading, such as reducing image quality or disabling video autoplay on slow connections to enhance performance and user experience. |
 | **useBatteryStatus**     | Tracks the device’s battery level and charging status using the Battery Status API, if supported. Ideal for optimizing power-intensive tasks (e.g., animations, polling) when battery is low or notifying users of charging state in mobile or web apps.  |
 | **useTextSelection**     | Tracks the currently selected text in the document or a specific DOM element, returning the selected text and its range. Useful for implementing features like text highlighting, copy-to-clipboard enhancements, or context-aware text editing tools in content-heavy applications. |
+
 
 ## Why Use Reactuals?
 
